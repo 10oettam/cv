@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Play&family=Zilla+Slab:wght@300&display=swap');
+
+      *{
+        font-family: 'Play', sans-serif;
+
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <h1 align="center"><strong>Contact page</strong></h1>
+    <!-- utile per javascript ma non ne ha specificato l'uso
+      nell'imput ci sono diversi tipi di type:
+      submit: pulsante da cliccare
+      text: casella di testo
+      password: password
+      email: richide la @
+      color: colore
+      checkbox
+
+      -->
+      <!-- action indica cosa deve accadere se ad esempio clicchiamo un pulsante
+    in questo caso ci rimanda ad una email ma potevo scrivere index.html -->
+    <!-- post per poter essere visti dalla email
+  nel name inseriamo il nome della informazione che poi verra visualizzata come
+    name = nomeCoso
+  con enctype gli diciamo di scrivercelo bene-->
+    <form class="" action="mailto:jdajdsk@dakkjdkj.djakj" method="post" enctype="text/plain">
+      <label for="information">Your name:</label>
+      <input type="text" name="nome" value="" required>
+      <br>
+      <label for="information">Your email</label>
+      <input type="email" name="email" value="">
+      <br>
+      <label for="information">Your password</label>
+      <input type="password" name="pas" value="">
+      <br>
+      <label for="">Your text message</label>
+      <br>
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <br>
+      <input type="submit" name="" value="Send information">
+    </form>
+  </body>
+</html>
